@@ -1,0 +1,57 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cyan;
+}
+
+.loginClass{
+    background-color: darkolivegreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    padding:5px;
+    margin-bottom: 5px;
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor:text;
+}
+
+#department{
+    margin-bottom: 5px;
+    font-family: arial;
+}
+
+#password{
+    margin-bottom: 10px;
+}
+
+#submit{
+    width:fit-content;
+    padding: 8px;
+    border-radius: 0 5px 0 5px;
+}
+
+button:hover, #department{
+    /*background-color: brown;*/
+    cursor: pointer;
+}
