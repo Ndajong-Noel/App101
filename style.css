@@ -52,6 +52,5 @@ input{
 }
 
 button:hover, #department{
-    /*background-color: brown;*/
     cursor: pointer;
 }
