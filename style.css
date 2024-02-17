@@ -6,11 +6,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: cyan;
+    background-color:rgb(38, 38, 38);
 }
 
 .loginClass{
-    background-color: darkolivegreen;
+    background-color: rgb(100, 100, 100);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,6 +49,7 @@ input{
     width:fit-content;
     padding: 8px;
     border-radius: 0 15px 0 15px;
+    background-color: aquamarine;
 }
 
 button:hover, #department{
